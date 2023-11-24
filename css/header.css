@@ -51,7 +51,7 @@
     margin-right: .5rem;
 }
 .informacoes .profissao{
-    background-image: url(img/icones/linkedin.png);
+    background-image: url(../img/icones/linkedin.png);
     background-repeat: no-repeat;
     padding-left: 19px;
     height: 41px;
