@@ -64,12 +64,12 @@
     color:#000000a1;
 }
 .informacoes .localizacao{
-    background-image: url('img/icones/localizacao.png');
+    background-image: url("../img/icones/localizacao.png");
     background-repeat: no-repeat;
     height: 37px;
 }
 .informacoes .whatsapp{
-    background-image: url('img/icones/whatsapp.png');
+    background-image: url("../img/icones/whatsapp.png");
     background-repeat: no-repeat;
     color: #000;
     margin: .5rem; 
@@ -83,7 +83,7 @@
 }
 
 .informacoes .email{
-    background-image: url(img/icones/email.png);
+    background-image: url("../img/icones/email.png");
     background-repeat: no-repeat;
     color: #000;
     margin: .5rem; 
