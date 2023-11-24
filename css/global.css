@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+:root{
+    background: linear-gradient(177deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%) no-repeat;
+}
+body{
+    width: 100%;
+    height: auto;
+    color: #000000;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 200;
+    color: #000;
+}
+.main{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #00000029;
+    box-shadow: 5px 5px 10px #353535;
+    border-radius: 1rem;
+
+}
+
+@media screen and (min-width: 768px){
+   .main{
+    max-width: 900px;
+    margin: 1rem auto;
+   } 
+}

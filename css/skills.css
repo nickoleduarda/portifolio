@@ -1,0 +1,41 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.skills .habilidades ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.skills .habilidades ul li img{
+    max-width: 50px;
+    margin: 0 .5rem;
+}
+
+.skills .pessoais ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.skills .pessoais ul li {
+    margin-left: 2rem;
+    padding: .5rem;
+    color: #000;
+}
+
+@media screen and (min-width: 768px){
+    .skills{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+}}

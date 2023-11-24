@@ -1,0 +1,28 @@
+.experiencia {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.experiencia .periodo{
+        display: flex;
+        justify-items: left;
+        margin-top: 1rem;   
+        align-items: center;
+}
+
+.experiencia .periodo::before{
+    content: "";
+    display: inline-block;
+    width: 2rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("img/icones/calendario.png");
+    margin: 0;
+}
+
+.experiencia .titulo{
+    font-size: 1.5rem;
+}

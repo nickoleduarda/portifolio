@@ -1,0 +1,116 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.header .img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.titulo{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+.informacoes p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    padding-left: 22px;
+}
+
+.informacoes p::before{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    height: 42px;
+}
+.informacoes a::before{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+.informacoes .profissao{
+    background-image: url(/img/icones/linkedin.png);
+    background-repeat: no-repeat;
+    padding-left: 19px;
+    height: 41px;
+    color: #000;
+    margin: 0.5rem; 
+    text-decoration: none;
+    
+}
+.informacoes .profissao:hover{
+    color:#000000a1;
+}
+.informacoes .localizacao{
+    background-image: url('/img/icones/localizacao.png');
+    background-repeat: no-repeat;
+    height: 37px;
+}
+.informacoes .whatsapp{
+    background-image: url('/img/icones/whatsapp.png');
+    background-repeat: no-repeat;
+    color: #000;
+    margin: .5rem; 
+    padding-left: 19px;
+    height: 41px;
+    text-decoration: none;
+}
+
+.informacoes .whatsapp:hover{
+    color:#000000a1;
+}
+
+.informacoes .email{
+    background-image: url('/img/icones/email.png');
+    background-repeat: no-repeat;
+    color: #000;
+    margin: .5rem; 
+    padding-left: 19px;
+    height: 36px;
+    text-decoration: none;
+}
+
+.informacoes .email:hover{
+    color:#000000a1;
+}
+
+@media screen and (min-width: 768px){
+    .header{
+        display: grid;
+        grid-template-areas:
+        "img titulo"
+        "img informacoes";
+    
+    }.header .img{
+        grid-area: img;
+        margin: 0 auto;
+    } .header .titulo {
+        grid-area: titulo;
+        text-align: start;
+        max-width: 436px;
+    }.header .informacoes{
+        grid-area: informacoes;
+    }
+}
